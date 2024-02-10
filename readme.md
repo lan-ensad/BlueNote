@@ -1,5 +1,7 @@
 # blueNote
 
+![th](img/thumb.webp)
+
 ## Turn ON
 
 Plug the power supply and switch from position `0` to position `1`. The relay GPIO.14 turn on few seconds and turn off again. 
@@ -48,6 +50,9 @@ There is a little offset we can adjust in `###TRIGGER NOTES` part to avoid the n
 
 We use `RaleyPin=[14, 16, 8, 7, 12]`\
 Le diagramme renseigne l'emplacement physique des relais.
+
+![case1](img/left.jpg)
+![case](img/inside-the-box.jpg)
 
 Certains GPIO sont occupés par le DAC+ (`iqaudio.pdf`)
 ![pinmap](img/pinmap.png)
